@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:black;
+}
+.head p{
+    text-align:center;
+    color:white;
+    font-family: 'Yeseva One', cursive;
+    font-size:80px;
+}
+.head{
+    display:flex;
+    gap:2px;
+    align-items:center;
+    justify-content:center;
+    width:100vw;
+    height:25vh;
+}
+#screen{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:white;
+    width:100vw;
+    height:70vh;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+}
+#image-tray{
+    background-image:url(hang0.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:30%;
+    height:75%;
+    position:relative;
+    transform: scale(1.3);
+}
+#box{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    width:50%;
+    height:75%;
+    gap:2rem;
+}
+#ques{
+    display:flex;
+    width:65%;
+    height:25%;
+    /* background-color:red; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    color:black;
+    font-size:larger;
+    text-decoration:line;
+    gap:5px;
+    font-size: xx-large;
+    font-family: 'Libre Baskerville', serif;
+}
+#tray{
+    width:67%;
+    height:60%;
+    /* background-color:blue; */
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:5px;
+    padding: .5rem .5rem 0.25rem .5rem;
+    font-family: 'Playfair Display', serif;
+    font-size:x-large;
+}
+.tile{
+    width:60px;
+    height:45px;
+    background-color: lightgrey;
+    color:black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+    font-size:larger;
+}
+#ques_tile{
+    font-weight:bold;
+    text-decoration:underline;
+}
+.letter{
+    font-weight:bold;
+    font-size: 50px;
+}
